@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def generate_buzz():
-    page = '<html><body><h1>'
+    page = '<html><script<alert("thanks for visiting my page - this popup indicates a pull request success!"</script><body><h1>'
     page += generator.generate_buzz()
     page += '</h1></body></html>'
     return page
